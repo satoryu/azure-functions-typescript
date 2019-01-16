@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
-  "author": "",
+  "author": "Tatsuya Sato",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^3.2.2",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1"
+    "@azure/functions": "^1.0.1-beta2",
+    "typescript": "^3.2.2"
   }
 }

@@ -17,6 +17,12 @@
     {
       "label": "installExtensions",
       "command": "func extensions install",
+      "type": "shell",
+      "dependsOn": "buildTypeScript"
+    },
+    {
+      "label": "buildTypeScript",
+      "command": "npm run-script build",
       "type": "shell"
     }
   ]
